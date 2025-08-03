@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	font-size: 16px;
+	color: black;
+	background-color: #fff2a5;
+}
+.container{
+	background-color: #ffffff;
+  width: 800px;
+  margin: auto;
+ 
+}
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+	padding-top: -20;
+	border-bottom: solid black;
+	width: 800px;
+	
+}
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffc423;
+}
+
+.header a{
+	color: orange;
+	text-decoration: none;
+	padding: 5px;
+}	
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 9px;
+}
+.header ul{
+	text-align:center;
+}
+.header a:hover{
+	background-color: lightsalmon;
+	color: white;
+}
+.gambar{
+	height: 300px;
+	background-image: url(mahiru1.jpeg) ;
+	background-position: 0px -120px ;
+	background-size: cover;
+	border-bottom: solid yellow;
+}
+.content h2{
+	color: black;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+	
+}
+table {
+      width: 70%;
+      margin-left: 10px;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #e0cfcf;
+      padding: 12px 16px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4e1e1;
+      color: #6a4c4c;
+    }
+    tr:nth-child(even) {
+      background-color: #fef6f6;
+    }
+
+
+.hobi ol{
+	list-style: number;
+	margin-left: 30px;
+}
+.hobi ol li{
+	font-size: 20px;
+	font-weight: bold;
+}
+.sub{
+	font-size: 17px;
+	font-weight: bolder;
+}
+.hobi p{
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+ 	margin-bottom: 15px;
+	max-width: 550px;
+  	
+}
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 800px;
+  height: 100px;
+  background-color: #ffffff;
+  color: #fcff69;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  transition: all 0.4s ease;
+  z-index: 1000;
+}
+
+.topbar.scrolled {
+  width: 100%;
+  height: 100px;
+  border-radius: 0;
+  border-bottom: solid black;
+}
+
